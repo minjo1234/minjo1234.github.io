@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>민이의 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T20:58:26+08:00</updated>
+  <updated>2025-02-01T21:09:18+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -40,7 +40,7 @@
     
   
 
-  <summary>안드로이드 컴포즈 레이아웃 1.Column, Row, Box  레이아웃을 사용하지 않는 경우  @Preview @Composable fun ArtistCard() {     Text(&amp;quot;레이아웃을 잡아주지 않으면&amp;quot;)     Text(&amp;quot;겹치게 됩니다.&amp;quot;) }     Column  This approach simplifies upgrades, isolates unnecessary files, and is perfect for users who want to focus on writing with minimal configuration.  1.Using  This approach simplifies upgrades, isolates unnecessary files, and is perfect for users...</summary>
+  <summary>안드로이드 컴포즈 레이아웃 1.Column, Row, Box  레이아웃을 사용하지 않는 경우  @Preview @Composable fun ArtistCard() {     Text(&amp;quot;레이아웃을 잡아주지 않으면&amp;quot;)     Text(&amp;quot;겹치게 됩니다.&amp;quot;) }      Column  This approach simplifies upgrades, isolates unnecessary files, and is perfect for users who want to focus on writing with minimal configuration.  1.Using  This approach simplifies upgrades, isolates unnecessary files, and is perfect for user...</summary>
 
   </entry>
 
