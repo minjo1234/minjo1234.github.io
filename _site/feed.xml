@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>민이의 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T21:09:18+08:00</updated>
+  <updated>2025-02-01T21:13:41+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Android-Compose-Layout/" rel="alternate" type="text/html" title="안드로이드 컴포즈 레이아웃 1.Column, Row, Box" />
     <published>2025-02-01T10:00:00+08:00</published>
   
-    <updated>2025-02-01T10:00:00+08:00</updated>
+    <updated>2025-02-01T21:09:31+08:00</updated>
   
     <id>http://localhost:4000/posts/Android-Compose-Layout/</id>
     <content type="text/html" src="http://localhost:4000/posts/Android-Compose-Layout/" />
