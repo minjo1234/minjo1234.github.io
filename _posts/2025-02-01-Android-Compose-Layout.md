@@ -27,7 +27,7 @@ fun ArtistCard() {
 }
 ```
 
-![Desktop View](/assets/img/for_post/download.png){: width="972" height="589"}
+![Desktop View](assets/img/for_post/download.png){: width="972" height="589"}
 
 ## Column
 

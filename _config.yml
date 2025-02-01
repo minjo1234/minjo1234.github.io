@@ -95,7 +95,8 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://minjo1234.github.io"
+cdn: "http://minjo1234.github.io"
+# cdn: "http://127.0.0.1:4000/"
 # the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/images/download.png"
 
