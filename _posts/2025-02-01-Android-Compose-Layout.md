@@ -27,8 +27,9 @@ fun ArtistCard() {
 }
 ```
 
-![Desktop View](assets/img/for_post/download.png){: width="972" height="589"}
+![Desktop View](assets/img/for_post/download.png){: .normal }
 
+<img src="assets/img/for_post/download.png" alt="image description">
 ## Column
 
 This approach simplifies upgrades, isolates unnecessary files, and is perfect for users who want to focus on writing with minimal configuration.
