@@ -1,5 +1,13 @@
 [
   {
+    "title": "안드로이드 컴포즈 레이아웃 1.Column, Row, Box",
+    "url": "/posts/Android-Compose-Layout/",
+    "categories": "Android, Layout",
+    "tags": "android, layout, jetpack compose",
+    "date": "2025-02-01 10:00:00 +0800",
+    "content": "안드로이드 컴포즈 레이아웃 1.Column, Row, Box  레이아웃을 사용하지 않는 경우  @Preview @Composable fun ArtistCard() {     Text(&quot;레이아웃을 잡아주지 않으면&quot;)     Text(&quot;겹치게 됩니다.&quot;) }     Column  This approach simplifies upgrades, isolate..."
+  },
+  {
     "title": "Customize the Favicon",
     "url": "/posts/customize-the-favicon/",
     "categories": "Blogging, Tutorial",

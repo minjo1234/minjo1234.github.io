@@ -1339,17 +1339,6 @@
 
       
     
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
 
     
   
@@ -1651,13 +1640,15 @@
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-<h1 class="mt-4 mb-0" id="h1--heading">H1 — heading</h1>
 
-<h2 data-toc-skip="" class="mt-4 mb-0" id="h2--heading">H2 — heading</h2>
+<h1 id="h1--heading">H1 — heading</h1>
+
+<h2 class="mt-4 mb-0" id="h2--heading">H2 — heading</h2>
 
 <h3 data-toc-skip="" class="mt-4 mb-0" id="h3--heading">H3 — heading</h3>
 
-<h4 data-toc-skip="" class="mt-4" id="h4--heading">H4 — heading</h4>
+<h4 data-toc-skip="" class="mt-4 mb-0" id="h4--heading">H4 — heading</h4>
+
 <!-- markdownlint-restore -->
 
 <h2 id="paragraph"><span class="me-2">Paragraph</span><a href="#paragraph" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
@@ -1719,21 +1710,23 @@
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-<blockquote class="prompt-tip">
-  <p>An example showing the <code class="language-plaintext highlighter-rouge">tip</code> type prompt.</p>
+
+<blockquote>
+  <p class="prompt-tip">An example showing the <code class="language-plaintext highlighter-rouge">tip</code> type prompt.</p>
 </blockquote>
 
-<blockquote class="prompt-info">
-  <p>An example showing the <code class="language-plaintext highlighter-rouge">info</code> type prompt.</p>
+<blockquote>
+  <p class="prompt-info">An example showing the <code class="language-plaintext highlighter-rouge">info</code> type prompt.</p>
 </blockquote>
 
-<blockquote class="prompt-warning">
-  <p>An example showing the <code class="language-plaintext highlighter-rouge">warning</code> type prompt.</p>
+<blockquote>
+  <p class="prompt-warning">An example showing the <code class="language-plaintext highlighter-rouge">warning</code> type prompt.</p>
 </blockquote>
 
-<blockquote class="prompt-danger">
-  <p>An example showing the <code class="language-plaintext highlighter-rouge">danger</code> type prompt.</p>
+<blockquote>
+  <p class="prompt-danger">An example showing the <code class="language-plaintext highlighter-rouge">danger</code> type prompt.</p>
 </blockquote>
+
 <!-- markdownlint-restore -->
 
 <h2 id="tables"><span class="me-2">Tables</span><a href="#tables" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
@@ -1807,8 +1800,8 @@
 
 <h3 id="specific-filename"><span class="me-2">Specific filename</span><a href="#specific-filename" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<div file="_sass/jekyll-theme-chirpy.scss" class="language-sass highlighter-rouge"><div class="code-header">
-        <span data-label-text="_sass/jekyll-theme-chirpy.scss"><i class="far fa-file-code fa-fw"></i></span>
+<div class="language-sass highlighter-rouge"><div class="code-header">
+        <span data-label-text="Sass"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -1817,7 +1810,7 @@
   <span class="s2">"colors/dark-typography"</span><span class="o">;</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<h2 id="mathematics"><span class="me-2">Mathematics</span><a href="#mathematics" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h2 file="\_sass/jekyll-theme-chirpy.scss" id="mathematics">Mathematics</h2>
 
 <p>The mathematics powered by <a href="https://www.mathjax.org/"><strong>MathJax</strong></a>:</p>
 
@@ -2005,8 +1998,15 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
 
 
   <section id="access-lastmod">
-    <h2 class="panel-heading">Recently Updated</h2>
+    <h2 class="panel-heading">최신 업로드</h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/Android-Compose-Layout/">안드로이드 컴포즈 레이아웃 1.Column, Row, Box</a>
+        </li>
       
         
         
@@ -2135,6 +2135,138 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -2142,10 +2274,19 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/favicon/">favicon</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/getting-started/">getting started</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/jetpack-compose/">jetpack compose</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/layout/">layout</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/typography/">typography</a>
@@ -2516,6 +2657,138 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -2523,10 +2796,19 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/android/">android</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/favicon/">favicon</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/getting-started/">getting started</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/jetpack-compose/">jetpack compose</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/layout/">layout</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/typography/">typography</a>

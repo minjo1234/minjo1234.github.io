@@ -1,11 +1,11 @@
-@use '../abstracts/variables' as v;
-@use '../abstracts/mixins' as mx;
-@use '../abstracts/breakpoints' as bp;
-@use '../abstracts/placeholders';
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as mx;
+@use "../abstracts/breakpoints" as bp;
+@use "../abstracts/placeholders";
 
 $btn-border-width: 3px;
 $btn-mb: 0.5rem;
-$sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
+$sidebar-display: "sidebar-display"; /* the attribute for sidebar display */
 
 #sidebar {
   @include mx.pl-pr(0);
@@ -236,7 +236,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       @include mx.ml-mr(calc((v.$sb-btn-gap - $btn-border-width) / 2));
 
       background-color: var(--sidebar-btn-color);
-      content: '';
+      content: "";
       width: $btn-border-width;
       height: $btn-border-width;
       border-radius: 50%;
