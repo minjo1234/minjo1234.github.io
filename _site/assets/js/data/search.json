@@ -3,9 +3,9 @@
     "title": "안드로이드 컴포즈 레이아웃 1.Column, Row, Box",
     "url": "/posts/Android-Compose-Layout/",
     "categories": "Android, Layout",
-    "tags": "android, layout, jetpack compose",
+    "tags": "jetpack compose - layout",
     "date": "2025-02-01 10:00:00 +0800",
-    "content": "안드로이드 컴포즈 레이아웃 1.Column, Row, Box  레이아웃을 사용하지 않는 경우  @Preview @Composable fun ArtistCard() {     Text(&quot;레이아웃을 잡아주지 않으면&quot;)     Text(&quot;겹치게 됩니다.&quot;) }      Column  This approach simplifies upgrades, isolat..."
+    "content": "안드로이드 컴포즈 레이아웃 1.Column, Row, Box  Compose 구성방식을 설정하지 않은 경우:     compose의 구성 가능한 함수를 내보낼 수 있는데, 구성가능한 방식을 설정하지 않을경우.   텍스트 요소를 겹치게 보이게 됩니다.   @Preview @Composable fun ArtistCard() {     Text(&quot;레이아웃을..."
   },
   {
     "title": "Customize the Favicon",
