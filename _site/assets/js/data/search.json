@@ -1,43 +1,19 @@
 [
   {
+    "title": "Vue [오류해결] v-for로 hover 각각의 tooltip 띄우기",
+    "url": "/posts/Android-Compose-Layout-copy/",
+    "categories": "Vue, Layout",
+    "tags": "jetpack compose - layout",
+    "date": "2025-03-05 10:00:00 +0800",
+    "content": "v-for로 hover 각각의 tooltip 띄우기  개발 라이브러리 : Vue + Jquery  회의실을 예약하는 상황에서 예약된 회의실의 경우 tooltip을 활용하여 예약현황을 보여주고자 하였다.  vue 문법중에서 v-for @mouseover, @mouseleave를 사용하면 간단하게 해결할 수 있는데 한 가지 오류가 발생했다.  기존코드  ..."
+  },
+  {
     "title": "안드로이드 컴포즈 레이아웃 1.Column, Row, Box",
     "url": "/posts/Android-Compose-Layout/",
     "categories": "Android, Layout",
     "tags": "jetpack compose - layout",
     "date": "2025-02-01 10:00:00 +0800",
     "content": "안드로이드 컴포즈 레이아웃 1.Column, Row, Box  Compose 구성방식을 설정하지 않은 경우:     compose의 구성 가능한 함수를 내보낼 수 있는데, 구성가능한 방식을 설정하지 않을경우.   텍스트 요소를 겹치게 보이게 됩니다.   @Preview @Composable fun ArtistCard() {     Text(&quot;레이아웃을..."
-  },
-  {
-    "title": "Customize the Favicon",
-    "url": "/posts/customize-the-favicon/",
-    "categories": "Blogging, Tutorial",
-    "tags": "favicon",
-    "date": "2019-08-11 00:34:00 +0800",
-    "content": "The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons..."
-  },
-  {
-    "title": "Getting Started",
-    "url": "/posts/getting-started/",
-    "categories": "Blogging, Tutorial",
-    "tags": "getting started",
-    "date": "2019-08-09 20:55:00 +0800",
-    "content": "Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server."
-  },
-  {
-    "title": "Writing a New Post",
-    "url": "/posts/write-a-new-post/",
-    "categories": "Blogging, Tutorial",
-    "tags": "writing",
-    "date": "2019-08-08 14:10:00 +0800",
-    "content": "This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.  Naming and..."
-  },
-  {
-    "title": "Text and Typography",
-    "url": "/posts/text-and-typography/",
-    "categories": "Blogging, Demo",
-    "tags": "typography",
-    "date": "2019-08-08 11:33:00 +0800",
-    "content": "Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more."
   }
   
 ]
