@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>민이의 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-04-06T22:20:54+08:00</updated>
+  <updated>2025-04-06T22:24:10+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Java 프로젝트에 Kotlin 도입하기</title>
-    <link href="http://localhost:4000/posts/Vue-hoverEvent/" rel="alternate" type="text/html" title="Java 프로젝트에 Kotlin 도입하기" />
+    <link href="http://localhost:4000/posts/Java-toKotlin/" rel="alternate" type="text/html" title="Java 프로젝트에 Kotlin 도입하기" />
     <published>2025-03-06T10:00:00+08:00</published>
   
     <updated>2025-03-06T10:00:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/Vue-hoverEvent/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Vue-hoverEvent/" />
+    <id>http://localhost:4000/posts/Java-toKotlin/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Java-toKotlin/" />
     <author>
       <name>minjo</name>
     </author>
