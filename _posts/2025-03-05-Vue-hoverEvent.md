@@ -1,77 +1,103 @@
 ---
-title: Vue [오류해결] v-for로 hover 각각의 tooltip 띄우기
+title: Java 프로젝트에 Kotlin 도입하기
 author: minjo
-date: 2025-03-05 10:00:00 +08
-categories: [Vue, Layout]
-tags: [jetpack compose - layout]
+date: 2025-03-06 10:00:00 +08
+categories: [Java, Kotlin, Spring]
+tags: [Kotlin, Java]
 math: true
 toc: true
 pin: true
 mermaid: true
 ---
 
-# v-for로 hover 각각의 tooltip 띄우기
+## 🧭 **사내 Java → Kotlin 전환 제안 요약**
 
-{: .mt-6 .mb-0 }
+### 도입배경
 
-{: .mt-4 .mb-0 }
+- 기존 사내 웹 서비스는 **Java 기반**으로만 구성됨
+- 유지보수 효율과 생산성 향상을 위해 Kotlin 병행 도입을 검토
 
-## 개발 라이브러리 : Vue + Jquery
+### Kotlin 장점
 
-{: .mt-2 .mb-0 }
+#### 1.Null Safety, 컴파일 타입에 null 가능성을 체크할 수 있어, NullPointException을 방지하는데 강력
 
-#### 회의실을 예약하는 상황에서 예약된 회의실의 경우 tooltip을 활용하여 예약현황을 보여주고자 하였다.
+#### 2.컬렉션 처리의 간결함 , 함수형 프로그래밍 스타일 예시 (map, filter, reduce, groupby 제공)
 
-vue 문법중에서 v-for @mouseover, @mouseleave를 사용하면 간단하게 해결할 수 있는데 한 가지 오류가 발생했다.
+```kotlin
 
-{: .mt-4 .mb-0 }
+val sales = listOf(100, 200, 150, 300)
+val average = sales.filter { it >= 200 }.average()
 
-## 기존코드
-
-```html
-<div
-  v-for="(rooms, i) in meeting.rooms"
-  class="usingRoom"
-  @mouseover="toolTip[room.id] = true"
-  @mouseleave="toolTip[room.id] = false"
->
-  <div v-for="(room, i) in rooms">
-    <div
-      v-for="(schedule, i) in getTargetSchedule(room)"
-      class="meetingRoom_tooltip"
-      v-show="schedule.id == room.id"
-    ></div>
-  </div>
-</div>
 ```
 
-간단하게 미팅룸을 용도에 맞게 그룹화하여 데이터를 가져왔고, 그룹화된 미팅룸을 반복문을 이용하여 일정이 존재한다면 **hover**가 된 상황에서
-**tooltip**을 보여지게 하고자하였다.
+```java
 
-<font color="#ff0000">하지만</font> v-show의 마우스를 갖다대도 상태에서 상태가 변화되지않았다.
-이유를 찾아보니 공식문서에 Vue는 렌더링이전 상황의 데이터에 대해서만 상태변화를 감지한다는 것을 알게되었다. [Vue 공식문서](https://v2.vuejs.org/v2/guide/reactivity.html#Change-Detection-Caveats)
+List<Integer> sales = Arrays.asList(100, 200, 150, 300);
+double avg = sales.stream()
+                  .filter(i -> i >= 200)
+                  .mapToInt(i -> i)
+                  .average()
+                  .orElse(0);
 
-오류해결 : Jquery를 이용하여 currentTarget을 찾아 내부에 div태그에 display를 설정할수있도록 함수를 변경하여 해결하였다.
-다른 화면에서는 초기데이터가 주어진 상황에서 v-show를 할 일밖에 없다보니 Vue와 렌더링에 관한 개념을 놓치고 있었는데 알게되어 다행이다
-아 근데 다 수정하고나니 v-tooltip이란거를 발견했다.
-또 공부해봐야겠다.
 
-## 수정코드
-
-```html
-<div v-for="(rooms, i) in meeting.rooms" class="usingRoom"
-     @mouseover="toggleTooltip($event, true)"
-     @mouseleave="toggleTooltip($event)>
-	<div v-for="(room, i) in rooms">
-      <div v-for="(schedule, i) in getTargetSchedule(room)" class="meetingRoom_tooltip">
-      	</div>
-    </div>
-</div
 ```
 
-```vue
-methods: { toggleTooltip(e, onHover=false) { let visible = onHover ? 'block' :
-'none' $(e.currentTarget()).find('div').css('display', visible) } }
-```
+### 3. **data class 제공**
 
-> 공부하다 보니 v-tooltip이라는 것도 존재한다는 것을 알았다. 처음부터 이걸 썼으면 좋았을 텐데라고 생각하며 v-tooltip도 공부해봐야겠다.
+- `@Data`, `@Builder`, `@Getter`, `@Setter` 없이도 자동 생성
+- `copy()`, `equals()`, `hashCode()` 등 기본 제공
+- ex) SalesTypeStatusDTO.kt
+
+  4.간결한 테스트 코드 5.확장 함수와 DSL 지원
+
+### 6. Kotlin <-> JPA
+
+개인적으로 둘 간에 가장 어울리지 않는 부분은 불변과 가변에 대한 개념이라고 생각합니다.
+Kotlin은 open class를 이용하지않는 이상 기본적으로 final 그렇다는 말은 = JPA 프록시 객체를 이용하지 못함, data class를 적극 사용하고 가변인 `var`보다는 불변인 `val`을 사용하는 것을 권장합니다.
+
+JPA를 다룰때는 두 가지 선택지가 존재합니다.
+
+## 1.Entity -> Java 나머지 Kotlin 변경
+
+1.JPA를 Java클래스로 나머지를 kt를 사용한다.
+
+- Kotlin ↔ Java 혼용은 **코드 통일성 저하**
+- Kotlin 쪽에서 Java Entity를 쓸 때 `nullability` 관련 주의 필요 (`@NotNull` 없어도 nullable로 추정됨)
+- Entity가 많아질수록 **관리 복잡도 증가**
+
+## 2.JPA open class로 설정하면 프록시 객체를 이용할 수 있다. -> 코드 통일성이 올라감
+
+### 단점
+
+- 플러그인 의존도가 있음 (`all-open`, `no-arg`)
+- 런타임 프록시 동작에 대한 **이해가 필요**
+- 실수로 `open` 안 붙이면 런타임 에러 가능 (플러그인 없으면)
+
+---
+
+### 수정순서
+
+현실적으로 영향도가 적은 DTO,Controller를 수정하고 복잡하지않은 Service단을 먼저 수정하며 Kotlin문법을 익혀나가는게 좋을 것 같습니다. 추후 Entity에 대하여 Kotlin 파일로 변경할지 Java파일을 그대로 이용할지 논의해나가면 좋을 것 같습니다.
+
+---
+
+## 🛠 Kotlin 적용 우선순위
+
+| 단계 | 대상              | 설명                                        |
+| ---- | ----------------- | ------------------------------------------- |
+| ✅ 1 | DTO               | `data class` 활용, 가장 안전하고 효과 큼    |
+| ✅ 2 | Controller        | API 호출 로직, Null-safe 파라미터 처리 용이 |
+| ✅ 3 | Service / UseCase | 비즈니스 로직 Kotlin화로 가독성 향상        |
+| ✅ 4 | Test              | MockK + Kotest로 테스트 코드 간결화         |
+| ✅ 5 | Util / Mapper     | 확장 함수 등 활용 가능                      |
+|      |                   |                                             |
+
+---
+
+### 참조문서
+
+JPA <-> Kotlin : [INFLAB-Tech](https://tech.inflab.com/20240110-java-and-kotlin/)<br>
+Jpa <-> Kotlin [Kotlin Jpa 설계](https://catsbi.oopy.io/ecfb2d3a-4095-41a9-ae21-0d36a93f552c)<br>
+Java To Kotlin - Kakao Tech - [KakaoTech](https://tech.kakaopay.com/post/kotlin-migration/)
+
+---

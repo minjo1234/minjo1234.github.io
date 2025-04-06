@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>민이의 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-04-05T08:35:41+08:00</updated>
+  <updated>2025-04-06T22:20:54+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,42 @@
 
   
   <entry>
+    <title>Java 프로젝트에 Kotlin 도입하기</title>
+    <link href="http://localhost:4000/posts/Vue-hoverEvent/" rel="alternate" type="text/html" title="Java 프로젝트에 Kotlin 도입하기" />
+    <published>2025-03-06T10:00:00+08:00</published>
+  
+    <updated>2025-03-06T10:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Vue-hoverEvent/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Vue-hoverEvent/" />
+    <author>
+      <name>minjo</name>
+    </author>
+
+  
+    
+    <category term="Java" />
+    
+    <category term="Kotlin" />
+    
+    <category term="Spring" />
+    
+  
+
+  <summary>🧭 사내 Java → Kotlin 전환 제안 요약  도입배경     기존 사내 웹 서비스는 Java 기반으로만 구성됨   유지보수 효율과 생산성 향상을 위해 Kotlin 병행 도입을 검토   Kotlin 장점  1.Null Safety, 컴파일 타입에 null 가능성을 체크할 수 있어, NullPointException을 방지하는데 강력  2.컬렉션 처리의 간결함 , 함수형 프로그래밍 스타일 예시 (map, filter, reduce, groupby 제공)   val sales = listOf(100, 200, 150, 300) val average = sales.filter { it &amp;amp;gt;= 200 }.average()     List&amp;amp;lt;Integer&amp;amp;gt; sales = Arrays.asLis...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Vue [오류해결] v-for로 hover 각각의 tooltip 띄우기</title>
-    <link href="http://localhost:4000/posts/Android-Compose-Layout-copy/" rel="alternate" type="text/html" title="Vue [오류해결] v-for로 hover 각각의 tooltip 띄우기" />
+    <link href="http://localhost:4000/posts/Vue-hoverEvent-copy/" rel="alternate" type="text/html" title="Vue [오류해결] v-for로 hover 각각의 tooltip 띄우기" />
     <published>2025-03-05T10:00:00+08:00</published>
   
     <updated>2025-03-05T10:00:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/Android-Compose-Layout-copy/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Android-Compose-Layout-copy/" />
+    <id>http://localhost:4000/posts/Vue-hoverEvent-copy/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Vue-hoverEvent-copy/" />
     <author>
       <name>minjo</name>
     </author>

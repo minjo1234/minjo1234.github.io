@@ -1,7 +1,15 @@
 [
   {
+    "title": "Java 프로젝트에 Kotlin 도입하기",
+    "url": "/posts/Vue-hoverEvent/",
+    "categories": "Java, Kotlin, Spring",
+    "tags": "Kotlin, Java",
+    "date": "2025-03-06 10:00:00 +0800",
+    "content": "🧭 사내 Java → Kotlin 전환 제안 요약  도입배경     기존 사내 웹 서비스는 Java 기반으로만 구성됨   유지보수 효율과 생산성 향상을 위해 Kotlin 병행 도입을 검토   Kotlin 장점  1.Null Safety, 컴파일 타입에 null 가능성을 체크할 수 있어, NullPointException을 방지하는데 강력  2.컬렉션 ..."
+  },
+  {
     "title": "Vue [오류해결] v-for로 hover 각각의 tooltip 띄우기",
-    "url": "/posts/Android-Compose-Layout-copy/",
+    "url": "/posts/Vue-hoverEvent-copy/",
     "categories": "Vue, Layout",
     "tags": "jetpack compose - layout",
     "date": "2025-03-05 10:00:00 +0800",
