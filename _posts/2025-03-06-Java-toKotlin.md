@@ -17,6 +17,11 @@ mermaid: true
 - 기존 사내 웹 서비스는 **Java 기반**으로만 구성됨
 - 유지보수 효율과 생산성 향상을 위해 Kotlin 병행 도입을 검토
 
+### 전제조건
+
+- 자바 개발자에게 친숙한 언어여야함 (기존 Java 개발자를 고려)
+- 변환과정이 복잡하지 않아야함(convert to Java To Kotlin 이용
+
 ### Kotlin 장점
 
 #### 1.Null Safety, 컴파일 타입에 null 가능성을 체크할 수 있어, NullPointException을 방지하는데 강력
