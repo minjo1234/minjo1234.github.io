@@ -1,11 +1,19 @@
 [
   {
     "title": "Java 프로젝트에 Kotlin 도입하기",
+    "url": "/posts/Vue-document/",
+    "categories": "Vue, Javascript",
+    "tags": "Vue, Javascript",
+    "date": "2025-03-10 10:00:00 +0800",
+    "content": "🤷‍♂️ Vue와 jQuery를 함께 사용할 때 이벤트 위임은 누구에게?  실무에서 Vue와 외부 라이브러리(jQuery 등)를 혼용해서 사용하는 경우가 종종 발생한다. 특히 레거시 프로젝트를 유지보수하거나, Vue에서 감지하지 못하는 데이터 변화를 처리할 때 jQuery를 사용하는 경우가 많다.  이 과정에서 이벤트 위임을 Vue 쪽으로 처리해야 하..."
+  },
+  {
+    "title": "Java 프로젝트에 Kotlin 도입하기",
     "url": "/posts/Java-toKotlin/",
     "categories": "Java, Kotlin, Spring",
     "tags": "Kotlin, Java",
     "date": "2025-03-06 10:00:00 +0800",
-    "content": "🧭 사내 Java → Kotlin 전환 제안 요약  도입배경     기존 사내 웹 서비스는 Java 기반으로만 구성됨   유지보수 효율과 생산성 향상을 위해 Kotlin 병행 도입을 검토   Kotlin 장점  1.Null Safety, 컴파일 타입에 null 가능성을 체크할 수 있어, NullPointException을 방지하는데 강력  2.컬렉션 ..."
+    "content": "🧭 사내 Java → Kotlin 전환 제안 요약  도입배경     기존 사내 웹 서비스는 Java 기반으로만 구성됨   유지보수 효율과 생산성 향상을 위해 Kotlin 병행 도입을 검토   전제조건     자바 개발자에게 친숙한 언어여야함 (기존 Java 개발자를 고려)   변환과정이 복잡하지 않아야함(convert to Java To Kotlin ..."
   },
   {
     "title": "Vue [오류해결] v-for로 hover 각각의 tooltip 띄우기",

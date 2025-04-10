@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>민이의 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-04-06T22:29:41+08:00</updated>
+  <updated>2025-04-10T09:15:51+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -21,10 +21,36 @@
   
   <entry>
     <title>Java 프로젝트에 Kotlin 도입하기</title>
+    <link href="http://localhost:4000/posts/Vue-document/" rel="alternate" type="text/html" title="Java 프로젝트에 Kotlin 도입하기" />
+    <published>2025-03-10T10:00:00+08:00</published>
+  
+    <updated>2025-03-10T10:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Vue-document/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Vue-document/" />
+    <author>
+      <name>minjo</name>
+    </author>
+
+  
+    
+    <category term="Vue" />
+    
+    <category term="Javascript" />
+    
+  
+
+  <summary>🤷‍♂️ Vue와 jQuery를 함께 사용할 때 이벤트 위임은 누구에게?  실무에서 Vue와 외부 라이브러리(jQuery 등)를 혼용해서 사용하는 경우가 종종 발생한다. 특히 레거시 프로젝트를 유지보수하거나, Vue에서 감지하지 못하는 데이터 변화를 처리할 때 jQuery를 사용하는 경우가 많다.  이 과정에서 이벤트 위임을 Vue 쪽으로 처리해야 하는지, jQuery 쪽으로 처리해야 하는지 헷갈리는 경우가 생긴다. 현재 진행 중인 프로젝트에서도 Vue와 jQuery를 같이 사용 중인데, Vue의 이벤트가 작동하지 않는 경우가 있어 원인을 분석하게 되었다.    코드로 알아보기.  ✅ 예시:회의 참석자를 선택하는 select2 컴포넌트 간단한 예시로, 회의실 참석자를 설정하기 위한 태그를 구현했다. s...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Java 프로젝트에 Kotlin 도입하기</title>
     <link href="http://localhost:4000/posts/Java-toKotlin/" rel="alternate" type="text/html" title="Java 프로젝트에 Kotlin 도입하기" />
     <published>2025-03-06T10:00:00+08:00</published>
   
-    <updated>2025-03-06T10:00:00+08:00</updated>
+    <updated>2025-04-07T08:40:03+08:00</updated>
   
     <id>http://localhost:4000/posts/Java-toKotlin/</id>
     <content type="text/html" src="http://localhost:4000/posts/Java-toKotlin/" />
@@ -42,7 +68,7 @@
     
   
 
-  <summary>🧭 사내 Java → Kotlin 전환 제안 요약  도입배경     기존 사내 웹 서비스는 Java 기반으로만 구성됨   유지보수 효율과 생산성 향상을 위해 Kotlin 병행 도입을 검토   Kotlin 장점  1.Null Safety, 컴파일 타입에 null 가능성을 체크할 수 있어, NullPointException을 방지하는데 강력  2.컬렉션 처리의 간결함 , 함수형 프로그래밍 스타일 예시 (map, filter, reduce, groupby 제공)   val sales = listOf(100, 200, 150, 300) val average = sales.filter { it &amp;amp;gt;= 200 }.average()     List&amp;amp;lt;Integer&amp;amp;gt; sales = Arrays.asLis...</summary>
+  <summary>🧭 사내 Java → Kotlin 전환 제안 요약  도입배경     기존 사내 웹 서비스는 Java 기반으로만 구성됨   유지보수 효율과 생산성 향상을 위해 Kotlin 병행 도입을 검토   전제조건     자바 개발자에게 친숙한 언어여야함 (기존 Java 개발자를 고려)   변환과정이 복잡하지 않아야함(convert to Java To Kotlin 이용   Kotlin 장점  1.Null Safety, 컴파일 타입에 null 가능성을 체크할 수 있어, NullPointException을 방지하는데 강력  2.컬렉션 처리의 간결함 , 함수형 프로그래밍 스타일 예시 (map, filter, reduce, groupby 제공)   val sales = listOf(100, 200, 150, 300) val...</summary>
 
   </entry>
 
