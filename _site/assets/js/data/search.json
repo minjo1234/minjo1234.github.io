@@ -1,6 +1,14 @@
 [
   {
-    "title": "Java 프로젝트에 Kotlin 도입하기",
+    "title": "0 SSR에서 CSR을 선택한 이유(feat Vue)",
+    "url": "/posts/SSR-toCSR/",
+    "categories": "Vue, Javascript",
+    "tags": "Vue",
+    "date": "2025-03-11 10:00:00 +0800",
+    "content": "0 SSR에서 CSR을 선택한 이유(feat Vue)  현재 프로젝트는 한 화면에서 여러 탭을 통해 다양한 화면을 렌더링하는 구조다. SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이지를 다시 받아야 해서 UX가 좋지 않다. 이런 이유로 CSR(Client-Side Rendering) 방식으로 전환을 고려 중이다.  전환 시 다음과 같은..."
+  },
+  {
+    "title": "Vue와 jQuery를 함께 사용할 때 이벤트 위임은 누구에게?",
     "url": "/posts/Vue-document/",
     "categories": "Vue, Javascript",
     "tags": "Vue, Javascript",
