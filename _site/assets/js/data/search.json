@@ -1,5 +1,13 @@
 [
   {
+    "title": "1️⃣ Vue Component 부모,자식 컴포넌트 이해하기.",
+    "url": "/posts/Vue-CDN-Component/",
+    "categories": "Vue, Javascript",
+    "tags": "Vue",
+    "date": "2025-03-14 10:00:00 +0800",
+    "content": "1️⃣ Vue Component 부모,자식 컴포넌트 이해하기.  035 CDN To Component (CDN 방식에서 컴포넌트 방식으로)  저번시간에 SSR,CSR의 장단점을 가지고 페이지를 수정하는 예시를 간단하게 들려고 합니다.  하지만 현재 프로젝트에서는 Vue server를 따로 분리하지 않았기에 운영중인 서비스를 위해서라도 component..."
+  },
+  {
     "title": "0️⃣ SSR에서 CSR을 선택한 이유(feat Vue)",
     "url": "/posts/SSR-toCSR/",
     "categories": "Vue, Javascript",

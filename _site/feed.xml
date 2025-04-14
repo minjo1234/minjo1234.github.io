@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>민이의 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-04-11T14:45:45+08:00</updated>
+  <updated>2025-04-14T10:41:47+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,37 @@
 
   
   <entry>
+    <title>1️⃣ Vue Component 부모,자식 컴포넌트 이해하기.</title>
+    <link href="http://localhost:4000/posts/Vue-CDN-Component/" rel="alternate" type="text/html" title="1️⃣ Vue Component 부모,자식 컴포넌트 이해하기." />
+    <published>2025-03-14T10:00:00+08:00</published>
+  
+    <updated>2025-03-14T10:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Vue-CDN-Component/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Vue-CDN-Component/" />
+    <author>
+      <name>minjo</name>
+    </author>
+
+  
+    
+    <category term="Vue" />
+    
+    <category term="Javascript" />
+    
+  
+
+  <summary>1️⃣ Vue Component 부모,자식 컴포넌트 이해하기.  035 CDN To Component (CDN 방식에서 컴포넌트 방식으로)  저번시간에 SSR,CSR의 장단점을 가지고 페이지를 수정하는 예시를 간단하게 들려고 합니다.  하지만 현재 프로젝트에서는 Vue server를 따로 분리하지 않았기에 운영중인 서비스를 위해서라도 component 형식이 필요한 페이지들은 현재 방식으로 개발한 이후, Vue server를 도입하면 유지보수가 빠르다는 생각이 들어 CDN 방식의 component를 이용해보려고 합니다.  탭(Tab)을 사용하는 페이지처럼 화면 전환 없이 동작해야 하는 UI라면, SPA(Single Page Application) 방식이 더 적합합니다. 그래서 기존에는 CDN 방식으로 ...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>0️⃣ SSR에서 CSR을 선택한 이유(feat Vue)</title>
     <link href="http://localhost:4000/posts/SSR-toCSR/" rel="alternate" type="text/html" title="0️⃣ SSR에서 CSR을 선택한 이유(feat Vue)" />
     <published>2025-03-11T10:00:00+08:00</published>
   
-    <updated>2025-04-11T14:42:16+08:00</updated>
+    <updated>2025-04-11T14:48:16+08:00</updated>
   
     <id>http://localhost:4000/posts/SSR-toCSR/</id>
     <content type="text/html" src="http://localhost:4000/posts/SSR-toCSR/" />
@@ -121,32 +147,6 @@
   
 
   <summary>v-for로 hover 각각의 tooltip 띄우기  개발 라이브러리 : Vue + Jquery  회의실을 예약하는 상황에서 예약된 회의실의 경우 tooltip을 활용하여 예약현황을 보여주고자 하였다.  vue 문법중에서 v-for @mouseover, @mouseleave를 사용하면 간단하게 해결할 수 있는데 한 가지 오류가 발생했다.  기존코드  &amp;amp;lt;div   v-for=&amp;quot;(rooms, i) in meeting.rooms&amp;quot;   class=&amp;quot;usingRoom&amp;quot;   @mouseover=&amp;quot;toolTip[room.id] = true&amp;quot;   @mouseleave=&amp;quot;toolTip[room.id] = false&amp;quot; &amp;amp;gt;   &amp;amp;lt;div v-for=&amp;quot;(room, i) in rooms&amp;quot;&amp;amp;gt;     &amp;amp;lt;...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>안드로이드 컴포즈 레이아웃 1.Column, Row, Box</title>
-    <link href="http://localhost:4000/posts/Android-Compose-Layout/" rel="alternate" type="text/html" title="안드로이드 컴포즈 레이아웃 1.Column, Row, Box" />
-    <published>2025-02-01T10:00:00+08:00</published>
-  
-    <updated>2025-02-03T11:49:43+08:00</updated>
-  
-    <id>http://localhost:4000/posts/Android-Compose-Layout/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Android-Compose-Layout/" />
-    <author>
-      <name>minjo</name>
-    </author>
-
-  
-    
-    <category term="Android" />
-    
-    <category term="Layout" />
-    
-  
-
-  <summary>안드로이드 컴포즈 레이아웃 1.Column, Row, Box  Compose 구성방식을 설정하지 않은 경우:     compose의 구성 가능한 함수를 내보낼 수 있는데, 구성가능한 방식을 설정하지 않을경우.   텍스트 요소를 겹치게 보이게 됩니다.   @Preview @Composable fun ArtistCard() {     Text(&amp;quot;레이아웃을 잡아주지 않으면&amp;quot;)     Text(&amp;quot;겹치게 됩니다.&amp;quot;) }     표준 레이아웃 구성요소    Column - 수직 정렬  @Preview @Composable fun ColumnCard() {     Column(modifier = Modifier.background(Color.White)) {         Text(&amp;quot;Column은 수직정렬&amp;quot;)   ...</summary>
 
   </entry>
 
