@@ -30,26 +30,26 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="안드로이드 컴포즈 레이아웃 1.Column, Row, Box" />
+<meta property="og:title" content="Spring @Transactional 어노테이션 완벽 가이드" />
 <meta name="author" content="minjo" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="안드로이드 컴포즈 레이아웃 1.Column, Row, Box" />
-<meta property="og:description" content="안드로이드 컴포즈 레이아웃 1.Column, Row, Box" />
-<link rel="canonical" href="http://localhost:4000/posts/Android-Compose-Layout/" />
-<meta property="og:url" content="http://localhost:4000/posts/Android-Compose-Layout/" />
+<meta name="description" content="Transaction Annotation과 일관성(Consistency)" />
+<meta property="og:description" content="Transaction Annotation과 일관성(Consistency)" />
+<link rel="canonical" href="http://localhost:4000/posts/Transaction_Annotation-copy/" />
+<meta property="og:url" content="http://localhost:4000/posts/Transaction_Annotation-copy/" />
 <meta property="og:site_name" content="민이의 개발 블로그" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-01T10:00:00+08:00" />
+<meta property="article:published_time" content="2025-04-26T10:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="안드로이드 컴포즈 레이아웃 1.Column, Row, Box" />
+<meta property="twitter:title" content="Spring @Transactional 어노테이션 완벽 가이드" />
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@minjo" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"minjo"},"dateModified":"2025-02-03T11:49:43+08:00","datePublished":"2025-02-01T10:00:00+08:00","description":"안드로이드 컴포즈 레이아웃 1.Column, Row, Box","headline":"안드로이드 컴포즈 레이아웃 1.Column, Row, Box","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Android-Compose-Layout/"},"url":"http://localhost:4000/posts/Android-Compose-Layout/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"minjo"},"dateModified":"2025-04-26T10:00:00+08:00","datePublished":"2025-04-26T10:00:00+08:00","description":"Transaction Annotation과 일관성(Consistency)","headline":"Spring @Transactional 어노테이션 완벽 가이드","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Transaction_Annotation-copy/"},"url":"http://localhost:4000/posts/Transaction_Annotation-copy/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>안드로이드 컴포즈 레이아웃 1.Column, Row, Box | 민이의 개발 블로그
+  <title>Spring @Transactional 어노테이션 완벽 가이드 | 민이의 개발 블로그
   </title>
 
   <!--
@@ -454,7 +454,7 @@
         
           
             
-              <span>안드로이드 컴포즈 레이아웃 1.Column, Row, Box</span>
+              <span>Spring @Transactional 어노테이션 완벽 가이드</span>
             
 
           
@@ -522,339 +522,6 @@
 
 
 
-  
-  
-
-  
-    
-      
-      
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-
-  
-
 
 <!-- Add header for code snippets -->
 
@@ -888,6 +555,28 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -903,6 +592,17 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
       
 
       
@@ -966,7 +666,7 @@
 
 <article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>안드로이드 컴포즈 레이아웃 1.Column, Row, Box</h1>
+    <h1 data-toc-skip>Spring @Transactional 어노테이션 완벽 가이드</h1>
     
 
     <div class="post-meta text-muted">
@@ -983,41 +683,18 @@
 
 <time
   
-  data-ts="1738375200"
+  data-ts="1745632800"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Feb  1, 2025
+  Apr 26, 2025
 </time>
 
       </span>
 
       <!-- lastmod date -->
-      
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738554583"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Feb  3, 2025
-</time>
-
-        </span>
       
 
       
@@ -1064,9 +741,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="362 words"
+  title="935 words"
 >
-  <em>2 min</em> read</span>
+  <em>5 min</em> read</span>
 
         </div>
       </div>
@@ -1075,7 +752,7 @@
 
   
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">안드로이드 컴포즈 레이아웃 1.Column, Row, Box</span>
+      <span class="label text-truncate">Spring @Transactional 어노테이션 완벽 가이드</span>
       <button type="button" class="toc-trigger btn me-1">
         <i class="fa-solid fa-list-ul fa-fw"></i>
       </button>
@@ -1088,7 +765,7 @@
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">안드로이드 컴포즈 레이아웃 1.Column, Row, Box</div>
+        <div class="label text-truncate py-2 ms-4">Spring @Transactional 어노테이션 완벽 가이드</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
           <i class="fas fa-close"></i>
         </button>
@@ -1098,69 +775,20 @@
   
 
   <div class="content">
-    <h1 id="안드로이드-컴포즈-레이아웃-1column-row-box">안드로이드 컴포즈 레이아웃 1.Column, Row, Box</h1>
+    <h1 id="transaction-annotation과-일관성consistency">Transaction Annotation과 일관성(Consistency)</h1>
 
-<p class="mt-6 mb-0 mt-4 mb-0"><strong>Compose 구성방식을 설정하지 않은 경우</strong>:</p>
+<hr />
 
-<ol class="mt-2 mb-0">
-  <li>compose의 구성 가능한 함수를 내보낼 수 있는데, 구성가능한 방식을 설정하지 않을경우.</li>
-  <li>텍스트 요소를 겹치게 보이게 됩니다.</li>
-</ol>
+<p>Transaction의 특성중 C(Consistency)를 공부하는 도중 Transactional 어노테이션을 이용하면<br />
+단순히 DB에서뿐만아니라 비즈니스로직과의 연결을 이용하여<br />
+<strong>하나의 메소드를 트랜잭션의 단위</strong>로 본다는 것을 알게되었다.</p>
 
-<div class="language-kotlin mt-4 mb-0 highlighter-rouge"><div class="code-header">
-        <span data-label-text="Kotlin"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre><span class="nd">@Preview</span>
-<span class="nd">@Composable</span>
-<span class="k">fun</span> <span class="nf">ArtistCard</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nc">Text</span><span class="p">(</span><span class="s">"레이아웃을 잡아주지 않으면"</span><span class="p">)</span>
-    <span class="nc">Text</span><span class="p">(</span><span class="s">"겹치게 됩니다."</span><span class="p">)</span>
-<span class="p">}</span>
-</pre></td></tr></tbody></table></code></div></div>
+<hr />
 
-<p><a href="http://127.0.0.1:4000/assets/img/for_post/20250201-1.png" class="popup img-link  shimmer"><img src="http://127.0.0.1:4000/assets/img/for_post/20250201-1.png" style="width: 100%; height: auto;" loading="lazy"></a></p>
+<h2 id="1transactional"><span class="me-2">1.@Transactional</span><a href="#1transactional" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<h2 id="표준-레이아웃-구성요소"><span class="me-2">표준 레이아웃 구성요소</span><a href="#표준-레이아웃-구성요소" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-
-<p><a href="http://127.0.0.1:4000/assets/img/for_post/20250201-2.png" class="popup img-link normal shimmer"><img src="http://127.0.0.1:4000/assets/img/for_post/20250201-2.png" alt="Desktop View"  loading="lazy"></a></p>
-
-<h3 id="column---수직-정렬"><span class="me-2">Column - 수직 정렬</span><a href="#column---수직-정렬" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<div class="language-kotlin highlighter-rouge"><div class="code-header">
-        <span data-label-text="Kotlin"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre><span class="nd">@Preview</span>
-<span class="nd">@Composable</span>
-<span class="k">fun</span> <span class="nf">ColumnCard</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nc">Column</span><span class="p">(</span><span class="n">modifier</span> <span class="p">=</span> <span class="nc">Modifier</span><span class="p">.</span><span class="nf">background</span><span class="p">(</span><span class="nc">Color</span><span class="p">.</span><span class="nc">White</span><span class="p">))</span> <span class="p">{</span>
-        <span class="nc">Text</span><span class="p">(</span><span class="s">"Column은 수직정렬"</span><span class="p">)</span>
-        <span class="nc">Text</span><span class="p">(</span><span class="s">"수직정렬완료"</span><span class="p">)</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></td></tr></tbody></table></code></div></div>
-
-<p><a href="http://127.0.0.1:4000/assets/img/for_post/20250201-3.png" class="popup img-link  shimmer"><img src="http://127.0.0.1:4000/assets/img/for_post/20250201-3.png" style="width: 100%; height: auto;" loading="lazy"></a></p>
-
-<ol>
-  <li>Column 요소를 사용하여 수직 정렬이 가능하다.</li>
-</ol>
-
-<h3 id="row---수평-정렬"><span class="me-2">Row - 수평 정렬</span><a href="#row---수평-정렬" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-
-<div class="language-kotlin highlighter-rouge"><div class="code-header">
-        <span data-label-text="Kotlin"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -1171,56 +799,141 @@
 8
 9
 10
-</pre></td><td class="rouge-code"><pre><span class="nd">@Preview</span>
-<span class="nd">@Composable</span>
-<span class="k">fun</span> <span class="nf">RowCard</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nc">Row</span><span class="p">(</span>
-        <span class="n">modifier</span> <span class="p">=</span> <span class="nc">Modifier</span><span class="p">.</span><span class="nf">background</span><span class="p">(</span><span class="nc">Color</span><span class="p">.</span><span class="nc">White</span><span class="p">)</span>
-    <span class="p">)</span> <span class="p">{</span>
-            <span class="nc">Text</span><span class="p">(</span><span class="s">"Row는 수평정렬"</span><span class="p">)</span>
-            <span class="nc">Text</span><span class="p">(</span><span class="s">"수평정렬"</span><span class="p">)</span>
-        <span class="p">}</span>
-<span class="p">}</span>
+</pre></td><td class="rouge-code"><pre><span class="err">#</span> <span class="n">개발자</span> <span class="n">입장에서</span> <span class="n">하나의</span> <span class="n">메소드를</span> <span class="nd">@Transactional</span> <span class="n">어노테이션을</span> <span class="n">이용하여</span> <span class="n">하나의</span> <span class="n">트랜잭션으로</span> <span class="n">보는</span> <span class="n">것이다</span><span class="o">.</span>
+
+<span class="nd">@Transactional</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">saveService</span><span class="o">(</span><span class="nc">MyServiceDTO</span> <span class="n">dto</span><span class="o">)</span> <span class="o">{</span>
+		<span class="k">if</span><span class="o">(</span><span class="n">dto</span><span class="o">.</span><span class="na">size</span><span class="o">()</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+			<span class="k">throw</span> <span class="k">new</span> <span class="nf">IllegalArgumentException</span><span class="o">(</span><span class="s">"아무것도 존재하지 않음"</span><span class="o">);</span>
+		<span class="o">}</span>
+
+		<span class="n">save</span><span class="o">(</span><span class="n">dto</span><span class="o">);</span>
+	<span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><a href="http://127.0.0.1:4000/assets/img/for_post/20250201-4.png" class="popup img-link  shimmer"><img src="http://127.0.0.1:4000/assets/img/for_post/20250201-4.png" style="width: 100%; height: auto;" loading="lazy"></a></p>
+<p>더욱 상세하면 설명하자면</p>
 
-<ol>
-  <li>Row를 설정하여 수평정렬이 가능하다.</li>
-</ol>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">saveService</code>라는 메소드는 Spring의 어노테이션을 이용하여 트랜잭션 단위가 되었다.</li>
+  <li>코드 상에서 에러(Exception)이 발생하거나</li>
+  <li>DB작업(쿼리)가 실패하면 트랜잭션은 <code class="language-plaintext highlighter-rouge">ROLLBACK</code> 된다.</li>
+  <li>모든 코드와 DB 쿼리가 정상적으로 작동하여야 트랜잭션이 커밋(Commit) 된다.</li>
+</ul>
 
-<h3 id="box---요소위에-요소가-겹치도록"><span class="me-2">Box - 요소위에 요소가 겹치도록</span><a href="#box---요소위에-요소가-겹치도록" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
 
-<div class="language-kotlin highlighter-rouge"><div class="code-header">
-        <span data-label-text="Kotlin"><i class="fas fa-code fa-fw small"></i></span>
+<h3 id="-조심할-점"><span class="me-2">🚨 조심할 점</span><a href="#-조심할-점" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ul>
+  <li><strong>런타임 예외(RunTimeException)가</strong> 발생하면 트랜잭션은 자동으로 <code class="language-plaintext highlighter-rouge">ROLLBACK</code></li>
+  <li><strong>체크 예외(Exception)은</strong> 자동으로 <code class="language-plaintext highlighter-rouge">ROLLBACK</code>되지 않음
+→ 필요하면 <code class="language-plaintext highlighter-rouge">@Transactional(rollbackFor = Exception.class)</code> 이렇게 설정</li>
+  <li><strong>DB 레벨 에러</strong>(ex. 제약조건 위반, Deadlock 등)가 발생하면 → 역시 롤백된다.</li>
+</ul>
+
+<hr />
+
+<h2 id="2transactional-을-사용해야-하는-상황"><span class="me-2">2.@Transactional 을 사용해야 하는 상황</span><a href="#2transactional-을-사용해야-하는-상황" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>그렇다면 <code class="language-plaintext highlighter-rouge">@Transactional</code> 을 사용해야 하는 상황은 언제일까 ?</p>
+
+<p>개념적으로 이해한다면
+트랜잭션은 <strong>“어떤 작업을 하나의 논리적 단위로 보고” 성공/실패를 원자적으로 관리</strong>할 때 필요하다<br />
+작업을 모두 성공시키거나, 모두 취소시켜야 하는가를 기준으로 선택한다.<br />
+-&gt; 이것을 3개(쓰기 작업, 복잡한 읽기 작업, 트랜잭션이 필요없는 경우)의 큰 틀로 정의하고자 한다.</p>
+
+<hr />
+
+<h3 id="1쓰기-작업변경-작업을-할-때"><span class="me-2">1.쓰기 작업(“변경 작업”)을 할 때</span><a href="#1쓰기-작업변경-작업을-할-때" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ul>
+  <li>insert, update, delete -&gt; 무조건 트랜잭션이 필요하다.</li>
+  <li>하나라도 실패하면 데이터의 신뢰도가 떨어진다.</li>
+  <li>비즈니스 로직 단위로 트랜잭션을 묶어야한다.</li>
+</ul>
+
+<h3 id="2복잡한-읽기-작업"><span class="me-2">2.복잡한 읽기 작업</span><a href="#2복잡한-읽기-작업" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ul>
+  <li>평범한 <code class="language-plaintext highlighter-rouge">select</code>는 트랜잭션이 필요없다.</li>
+  <li>그런데 여러 테이블을 join 하거나 도중에 상태가 변할 위험이 있는 경우는
+ex) A 테이블 조회 -&gt; B 테이블 조회 -&gt; A 테이블의 상태가 다른 작업에 의해서 변할 수 있는경우</li>
+</ul>
+
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
 6
-7
-8
-9
-10
-</pre></td><td class="rouge-code"><pre><span class="nd">@Preview</span>
-<span class="nd">@Composable</span>
-<span class="k">fun</span> <span class="nf">BoxCard</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nc">Row</span><span class="p">(</span>
-        <span class="n">modifier</span> <span class="p">=</span> <span class="nc">Modifier</span><span class="p">.</span><span class="nf">background</span><span class="p">(</span><span class="nc">Color</span><span class="p">.</span><span class="nc">White</span><span class="p">)</span>
-    <span class="p">)</span> <span class="p">{</span>
-            <span class="nc">Text</span><span class="p">(</span><span class="s">"Row는 수평정렬"</span><span class="p">)</span>
-            <span class="nc">Text</span><span class="p">(</span><span class="s">"수평정렬"</span><span class="p">)</span>
-        <span class="p">}</span>
-<span class="p">}</span>
+</pre></td><td class="rouge-code"><pre><span class="nd">@Transactional</span><span class="o">(</span><span class="n">readOnly</span> <span class="o">=</span> <span class="kc">true</span><span class="o">)</span>
+<span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Product</span><span class="o">&gt;</span> <span class="nf">getProductsAndOrders</span><span class="o">(</span><span class="nc">Long</span> <span class="n">customerId</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nc">List</span><span class="o">&lt;</span><span class="nc">Product</span><span class="o">&gt;</span> <span class="n">products</span> <span class="o">=</span> <span class="n">productRepository</span><span class="o">.</span><span class="na">findByCustomerId</span><span class="o">(</span><span class="n">customerId</span><span class="o">);</span>
+    <span class="c1">// 여기서 Order 상태를 같이 조회하고, 그 사이에 상태 변동이 있을 수 있는 경우</span>
+    <span class="k">return</span> <span class="n">products</span><span class="o">;</span>
+<span class="o">}</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<p><a href="http://127.0.0.1:4000/assets/img/for_post/20250201-5.png" class="popup img-link  shimmer"><img src="http://127.0.0.1:4000/assets/img/for_post/20250201-5.png" style="width: 100%; height: auto;" loading="lazy"></a></p>
+<p>이러한 경우에는 특별하게 “읽기 전용 트랜잭션” 을 이용한다.</p>
 
-<ol>
-  <li>Box를 사용하여 요소를 다른 위에 요소 위에 겹쳐둘 수 있다.</li>
-  <li>Compose 구성방식을 사용하지 않는 경우와의 차이는 Box는 영역지정과, 요소의 위치를 지정하는 것이 가능하다는 점이다.</li>
-</ol>
+<div class="language-java highlighter-rouge"><div class="code-header">
+        <span data-label-text="Java"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nd">@Transactional</span><span class="o">(</span><span class="n">readonly</span> <span class="o">=</span> <span class="kc">true</span><span class="o">)</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">readOnly = true</code> 옵션을 주면</p>
+
+<ul>
+  <li>성능 최적화(DB가 dirty checking 같은 걸 안 함 → JPA를 사용하는 경우)</li>
+  <li>읽기 작업이라는 걸 명시적으로 표시할 수 있다.</li>
+</ul>
+
+<h3 id="3트랜잭션이-필요-없는-경우"><span class="me-2">3.트랜잭션이 필요 없는 경우</span><a href="#3트랜잭션이-필요-없는-경우" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ul>
+  <li>단순 조회</li>
+  <li>단순 계산(DB 관련 없는 경우)</li>
+  <li>외부 API만 호출</li>
+</ul>
+
+<hr />
+
+<h2 id="-트랜잭션-사용법-정리"><span class="me-2">✨ 트랜잭션 사용법 정리</span><a href="#-트랜잭션-사용법-정리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>상황</th>
+      <th>트랜잭션 필요 여부</th>
+      <th>비고</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>insert/update/delete</td>
+      <td>✅ 필요</td>
+      <td>데이터 손상 방지</td>
+    </tr>
+    <tr>
+      <td>단순 select</td>
+      <td>❌ 불필요</td>
+      <td>읽기 전용</td>
+    </tr>
+    <tr>
+      <td>복잡한 select + 일관성 필요</td>
+      <td>✅ 필요 (readOnly 트랜잭션)</td>
+      <td>join/동시성 이슈 있을 때</td>
+    </tr>
+    <tr>
+      <td>계산, API 호출 등</td>
+      <td>❌ 불필요</td>
+      <td>DB 작업 없으면 안 걸어도 됨</td>
+    </tr>
+  </tbody>
+</table></div>
 
   </div>
 
@@ -1230,8 +943,9 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/android/">Android</a>,
-          <a href="/categories/layout/">Layout</a>
+          <a href="/categories/db/">DB</a>,
+          <a href="/categories/transaction/">Transaction</a>,
+          <a href="/categories/spring/">Spring</a>
       </div>
     
 
@@ -1241,9 +955,19 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/jetpack-compose-layout/"
+            href="/tags/db/"
             class="post-tag no-text-decoration"
-          >jetpack compose - layout</a>
+          >DB</a>
+        
+          <a
+            href="/tags/transaction/"
+            class="post-tag no-text-decoration"
+          >Transaction</a>
+        
+          <a
+            href="/tags/spring/"
+            class="post-tag no-text-decoration"
+          >Spring</a>
         
       </div>
     
@@ -1279,21 +1003,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EC%BB%B4%ED%8F%AC%EC%A6%88%20%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%201.Column,%20Row,%20Box%20-%20%EB%AF%BC%EC%9D%B4%EC%9D%98%20%EA%B0%9C%EB%B0%9C%20%EB%B8%94%EB%A1%9C%EA%B7%B8&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FAndroid-Compose-Layout%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Spring%20@Transactional%20%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C%20-%20%EB%AF%BC%EC%9D%B4%EC%9D%98%20%EA%B0%9C%EB%B0%9C%20%EB%B8%94%EB%A1%9C%EA%B7%B8&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FTransaction_Annotation-copy%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EC%BB%B4%ED%8F%AC%EC%A6%88%20%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%201.Column,%20Row,%20Box%20-%20%EB%AF%BC%EC%9D%B4%EC%9D%98%20%EA%B0%9C%EB%B0%9C%20%EB%B8%94%EB%A1%9C%EA%B7%B8&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FAndroid-Compose-Layout%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Spring%20@Transactional%20%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C%20-%20%EB%AF%BC%EC%9D%B4%EC%9D%98%20%EA%B0%9C%EB%B0%9C%20%EB%B8%94%EB%A1%9C%EA%B7%B8&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FTransaction_Annotation-copy%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FAndroid-Compose-Layout%2F&text=%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20%EC%BB%B4%ED%8F%AC%EC%A6%88%20%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83%201.Column,%20Row,%20Box%20-%20%EB%AF%BC%EC%9D%B4%EC%9D%98%20%EA%B0%9C%EB%B0%9C%20%EB%B8%94%EB%A1%9C%EA%B7%B8" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FTransaction_Annotation-copy%2F&text=Spring%20@Transactional%20%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C%20-%20%EB%AF%BC%EC%9D%B4%EC%9D%98%20%EA%B0%9C%EB%B0%9C%20%EB%B8%94%EB%A1%9C%EA%B7%B8" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1790,6 +1514,18 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
 
 
@@ -1806,7 +1542,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/Vue-hoverEvent-copy/" class="post-preview card h-100">
+          <a href="/posts/DB_Transaction_Start/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1818,16 +1554,44 @@
 
 <time
   
-  data-ts="1741140000"
+  data-ts="1745200800"
   data-df="ll"
   
 >
-  Mar  5, 2025
+  Apr 21, 2025
 </time>
 
-              <h4 class="pt-0 my-2">Vue [오류해결] v-for로 hover 각각의 tooltip 띄우기</h4>
+              <h4 class="pt-0 my-2">DB 트랜잭션(Transaction)</h4>
               <div class="text-muted">
-                <p>v-for로 hover 각각의 tooltip 띄우기  개발 라이브러리 : Vue + Jquery  회의실을 예약하는 상황에서 예약된 회의실의 경우 tooltip을 활용하여 예약현황을 보여주고자 하였다.  vue 문법중에서 v-for @mouseover, @mouseleave를 사용하면 간단하게 해결할 수 있는데 한 가지 오류가 발생했다.  기존코드  ...</p>
+                <p>트랜잭션의 개요    서비스 운영하면서 DB 성능 저하 이슈가 발생하면, 특정 쿼리만 골라서 성능을 개선하였다. 하지만 이러한 경우 다수의 쿼리가 동시에 실행되거나, 중간에 실패하였을 때 데이터가 꼬이는 현상이 발생하면서 성능 최적화 뿐만 아니라 트랜잭션 자체의 이해가 더 중요한 문제임을 깨달았다.  이 글을 통해 트랜잭션의 개념을 깊이있게 이해하고자...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/Java-toKotlin/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1741226400"
+  data-df="ll"
+  
+>
+  Mar  6, 2025
+</time>
+
+              <h4 class="pt-0 my-2">Java 프로젝트에 Kotlin 도입하기</h4>
+              <div class="text-muted">
+                <p>🧭 사내 Java → Kotlin 전환 제안 요약  도입배경     기존 사내 웹 서비스는 Java 기반으로만 구성됨   유지보수 효율과 생산성 향상을 위해 Kotlin 병행 도입을 검토   전제조건     자바 개발자에게 친숙한 언어여야함 (기존 Java 개발자를 고려)   변환과정이 복잡하지 않아야함(convert to Java To Kotlin ...</p>
               </div>
             </div>
           </a>
@@ -1847,19 +1611,19 @@
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Older">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/DB_Transaction_Start/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>DB 트랜잭션(Transaction)</p>
+    </a>
   
 
   
-    <a
-      href="/posts/Vue-hoverEvent-copy/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>Vue [오류해결] v-for로 hover 각각의 tooltip 띄우기</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
