@@ -1101,20 +1101,6 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Transaction_Annotation-copy/">Spring @Transactional 어노테이션 완벽 가이드</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/DB_Transaction_Start/">DB 트랜잭션(Transaction)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
           <a href="/posts/SSR-toCSR/">0️⃣ SSR에서 CSR을 선택한 이유(feat Vue)</a>
         </li>
       
@@ -1129,7 +1115,21 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Vue-CDN-Component-copy/">1️⃣ Vue Component 부모,자식 컴포넌트 이해하기.</a>
+          <a href="/posts/Transaction_IsolationLevel/">DB 트랜잭션의 동시성과 고립성, 성능은 어떻게 지킬까?</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/Transaction_Annotation-copy-2/">Spring @Transactional 어노테이션 완벽 가이드</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/DB_Transaction_Start/">DB 트랜잭션(Transaction)</a>
         </li>
       
     </ul>
@@ -1163,41 +1163,6 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -1213,9 +1178,12 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     
     
       
-        
-        
-
+    
+  
+    
+    
+    
+    
   
     
     
@@ -1225,8 +1193,6 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     
     
     
-    
-      
     
   
     
@@ -1274,7 +1240,41 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1447,16 +1447,16 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/vue/">Vue</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/db/">DB</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/jetpack-compose-layout/">jetpack compose - layout</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/transaction/">Transaction</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/transaction/">Transaction</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/vue/">Vue</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/jetpack-compose-layout/">jetpack compose - layout</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/acid/">ACID</a>
@@ -1772,41 +1772,6 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -1822,9 +1787,12 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     
     
       
-        
-        
-
+    
+  
+    
+    
+    
+    
   
     
     
@@ -1834,8 +1802,6 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     
     
     
-    
-      
     
   
     
@@ -1883,7 +1849,41 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2056,16 +2056,16 @@ SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이�
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/vue/">Vue</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/db/">DB</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/jetpack-compose-layout/">jetpack compose - layout</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/transaction/">Transaction</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/transaction/">Transaction</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/vue/">Vue</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/jetpack-compose-layout/">jetpack compose - layout</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/acid/">ACID</a>

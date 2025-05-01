@@ -1,7 +1,7 @@
 ---
 title: DB 트랜잭션(Transaction)
 author: minjo
-date: 2025-04-21 10:00:00 +08
+date: 2025-03-21 10:00:00 +08
 categories: [DB, Transaction]
 tags: [DB, Transaction, ACID]
 math: true

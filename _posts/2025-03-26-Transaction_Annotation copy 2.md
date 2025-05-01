@@ -1,7 +1,7 @@
 ---
 title: Spring @Transactional 어노테이션 완벽 가이드
 author: minjo
-date: 2025-04-26 10:00:00 +08
+date: 2025-03-26 10:00:00 +08
 categories: [DB, Transaction, Spring]
 tags: [DB, Transaction, Spring]
 math: true

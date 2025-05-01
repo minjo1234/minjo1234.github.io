@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>민이의 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-04-26T17:33:34+08:00</updated>
+  <updated>2025-05-01T22:23:25+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,42 @@
 
   
   <entry>
+    <title>DB 트랜잭션의 동시성과 고립성, 성능은 어떻게 지킬까?</title>
+    <link href="http://localhost:4000/posts/Transaction_IsolationLevel/" rel="alternate" type="text/html" title="DB 트랜잭션의 동시성과 고립성, 성능은 어떻게 지킬까?" />
+    <published>2025-04-01T10:00:00+08:00</published>
+  
+    <updated>2025-04-01T10:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Transaction_IsolationLevel/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Transaction_IsolationLevel/" />
+    <author>
+      <name>minjo</name>
+    </author>
+
+  
+    
+    <category term="DB" />
+    
+    <category term="Transaction" />
+    
+    <category term="ACID" />
+    
+  
+
+  <summary>트랜잭션의 고립성과 동시성 제어 - 성능은 어떻게 유지될까?    트랜잭션(Transaction)의 특징 중 하나인 고립성(Isolation)에 대해 공부하던 중 한 가지 의문이 들었습니다.     “고립성 때문에 트랜잭션이 순차적으로만 실행된다면, DB 성능은 매우 낮아지는 것 아닌가?”   하지만 실무에서는 수많은 트랜잭션이 동시에 수행되면서도 성능이 잘 나옵니다. 어떻게 이러한 성능 저하를 방지하고, 동시에 고립성을 보장할 수 있는 걸까요?    🔐 고립성(Isolation) 개념 다시 보기  Isolation은 하나의 트랜잭션이 수행 중일 때, 다른 트랜잭션이 그 중간 상태를 볼 수 없도록 보장하는 성질입니다. 즉, 격리된 상태로 트랜잭션이 동작해야 데이터의 정합성이 보장됩니다. 그렇다고 모든 ...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Spring @Transactional 어노테이션 완벽 가이드</title>
-    <link href="http://localhost:4000/posts/Transaction_Annotation-copy/" rel="alternate" type="text/html" title="Spring @Transactional 어노테이션 완벽 가이드" />
-    <published>2025-04-26T10:00:00+08:00</published>
+    <link href="http://localhost:4000/posts/Transaction_Annotation-copy-2/" rel="alternate" type="text/html" title="Spring @Transactional 어노테이션 완벽 가이드" />
+    <published>2025-03-26T10:00:00+08:00</published>
   
-    <updated>2025-04-26T10:00:00+08:00</updated>
+    <updated>2025-03-26T10:00:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/Transaction_Annotation-copy/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Transaction_Annotation-copy/" />
+    <id>http://localhost:4000/posts/Transaction_Annotation-copy-2/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Transaction_Annotation-copy-2/" />
     <author>
       <name>minjo</name>
     </author>
@@ -50,9 +78,9 @@
   <entry>
     <title>DB 트랜잭션(Transaction)</title>
     <link href="http://localhost:4000/posts/DB_Transaction_Start/" rel="alternate" type="text/html" title="DB 트랜잭션(Transaction)" />
-    <published>2025-04-21T10:00:00+08:00</published>
+    <published>2025-03-21T10:00:00+08:00</published>
   
-    <updated>2025-04-21T10:00:00+08:00</updated>
+    <updated>2025-03-21T10:00:00+08:00</updated>
   
     <id>http://localhost:4000/posts/DB_Transaction_Start/</id>
     <content type="text/html" src="http://localhost:4000/posts/DB_Transaction_Start/" />
@@ -121,32 +149,6 @@
   
 
   <summary>0️⃣ SSR에서 CSR을 선택한 이유(feat Vue)  현재 프로젝트는 한 화면에서 여러 탭을 통해 다양한 화면을 렌더링하는 구조다. SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이지를 다시 받아야 해서 UX가 좋지 않다. 이런 이유로 CSR(Client-Side Rendering) 방식으로 전환을 고려 중이다.  전환 시 다음과 같은 작업이 필요하다:     기존 Vue CDN + Thymeleaf에서 사용하던 서버 렌더링 문법 제거   Spring의 Model 객체 사용 제거 및 API 기반 구조로 재편   Vue 앱을 별도 서버로 분리 (예: Vite, Vueserver 등 사용)   기존 외부 라이브러리(jQuery, Select2 등)와의 렌더링 이슈로 불필요한 함수 제거 ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Vue와 jQuery를 함께 사용할 때 이벤트 위임은 누구에게?</title>
-    <link href="http://localhost:4000/posts/Vue-document/" rel="alternate" type="text/html" title="Vue와 jQuery를 함께 사용할 때 이벤트 위임은 누구에게?" />
-    <published>2025-03-10T10:00:00+08:00</published>
-  
-    <updated>2025-03-10T10:00:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/Vue-document/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Vue-document/" />
-    <author>
-      <name>minjo</name>
-    </author>
-
-  
-    
-    <category term="Vue" />
-    
-    <category term="Javascript" />
-    
-  
-
-  <summary>🤷‍♂️ Vue와 jQuery를 함께 사용할 때 이벤트 위임은 누구에게?  실무에서 Vue와 외부 라이브러리(jQuery 등)를 혼용해서 사용하는 경우가 종종 발생한다. 특히 레거시 프로젝트를 유지보수하거나, Vue에서 감지하지 못하는 데이터 변화를 처리할 때 jQuery를 사용하는 경우가 많다.  이 과정에서 이벤트 위임을 Vue 쪽으로 처리해야 하는지, jQuery 쪽으로 처리해야 하는지 헷갈리는 경우가 생긴다. 현재 진행 중인 프로젝트에서도 Vue와 jQuery를 같이 사용 중인데, Vue의 이벤트가 작동하지 않는 경우가 있어 원인을 분석하게 되었다.    코드로 알아보기.  ✅ 예시:회의 참석자를 선택하는 select2 컴포넌트 간단한 예시로, 회의실 참석자를 설정하기 위한 태그를 구현했다. s...</summary>
 
   </entry>
 
