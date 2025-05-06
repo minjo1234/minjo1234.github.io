@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>민이의 개발 블로그</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-05-01T22:23:25+08:00</updated>
+  <updated>2025-05-06T10:40:05+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Firebase로 백엔드 대체하는 법 (설명편)</title>
+    <link href="http://localhost:4000/posts/Firebase/" rel="alternate" type="text/html" title="Firebase로 백엔드 대체하는 법 (설명편)" />
+    <published>2025-04-06T10:00:00+08:00</published>
+  
+    <updated>2025-04-06T10:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Firebase/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Firebase/" />
+    <author>
+      <name>minjo</name>
+    </author>
+
+  
+    
+    <category term="Backend" />
+    
+    <category term="Cloud" />
+    
+  
+
+  <summary>Firebase로 백엔드 대체하기.    나는 백엔드 개발자다. Spring Boot 기반의 API 서버를 설계하고, 때론 Vue.js를 써서 프론트까지 구현하는 풀스택 개발자이기도 하다. 혼자서 간단한 앱을 개발할 때조차도 엔티티 설계, 비즈니스 로직 고민, API 구성 등에 시간이 오래 걸린다. 그래서 요즘 고민하고 있다. 생산성을 높일 방법은 없을까?  그래서 시작했다. Firebase를 활용해 백엔드 개발을 대체해보기.     앞으로 Firebase의 기능들을 하나씩 사용해보며 실시간으로 DBMS와의 장단점도 함께 정리해볼 예정이다.     🛠️ 개발 환경     개발언어 : Flutter 백엔드 : Firebase     그래서 Firebase를 간략히 설명하는 시간을 가지려고하는데,  🔥 F...</summary>
+
+  </entry>
 
   
   <entry>
@@ -80,7 +106,7 @@
     <link href="http://localhost:4000/posts/DB_Transaction_Start/" rel="alternate" type="text/html" title="DB 트랜잭션(Transaction)" />
     <published>2025-03-21T10:00:00+08:00</published>
   
-    <updated>2025-03-21T10:00:00+08:00</updated>
+    <updated>2025-05-01T22:23:40+08:00</updated>
   
     <id>http://localhost:4000/posts/DB_Transaction_Start/</id>
     <content type="text/html" src="http://localhost:4000/posts/DB_Transaction_Start/" />
@@ -123,32 +149,6 @@
   
 
   <summary>1️⃣ Vue Component 부모,자식 컴포넌트 이해하기.  035 CDN To Component (CDN 방식에서 컴포넌트 방식으로)  저번시간에 SSR,CSR의 장단점을 가지고 페이지를 수정하는 예시를 간단하게 들려고 합니다.  하지만 현재 프로젝트에서는 Vue server를 따로 분리하지 않았기에 운영중인 서비스를 위해서라도 component 형식이 필요한 페이지들은 현재 방식으로 개발한 이후, Vue server를 도입하면 유지보수가 빠르다는 생각이 들어 CDN 방식의 component를 이용해보려고 합니다.  탭(Tab)을 사용하는 페이지처럼 화면 전환 없이 동작해야 하는 UI라면, SPA(Single Page Application) 방식이 더 적합합니다. 그래서 기존에는 CDN 방식으로 ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>0️⃣ SSR에서 CSR을 선택한 이유(feat Vue)</title>
-    <link href="http://localhost:4000/posts/SSR-toCSR/" rel="alternate" type="text/html" title="0️⃣ SSR에서 CSR을 선택한 이유(feat Vue)" />
-    <published>2025-03-11T10:00:00+08:00</published>
-  
-    <updated>2025-04-14T10:42:13+08:00</updated>
-  
-    <id>http://localhost:4000/posts/SSR-toCSR/</id>
-    <content type="text/html" src="http://localhost:4000/posts/SSR-toCSR/" />
-    <author>
-      <name>minjo</name>
-    </author>
-
-  
-    
-    <category term="Vue" />
-    
-    <category term="Javascript" />
-    
-  
-
-  <summary>0️⃣ SSR에서 CSR을 선택한 이유(feat Vue)  현재 프로젝트는 한 화면에서 여러 탭을 통해 다양한 화면을 렌더링하는 구조다. SSR 기반 구조는 초기 로딩은 빠르지만 탭 전환 시 전체 페이지를 다시 받아야 해서 UX가 좋지 않다. 이런 이유로 CSR(Client-Side Rendering) 방식으로 전환을 고려 중이다.  전환 시 다음과 같은 작업이 필요하다:     기존 Vue CDN + Thymeleaf에서 사용하던 서버 렌더링 문법 제거   Spring의 Model 객체 사용 제거 및 API 기반 구조로 재편   Vue 앱을 별도 서버로 분리 (예: Vite, Vueserver 등 사용)   기존 외부 라이브러리(jQuery, Select2 등)와의 렌더링 이슈로 불필요한 함수 제거 ...</summary>
 
   </entry>
 

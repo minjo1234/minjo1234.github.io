@@ -1,5 +1,13 @@
 [
   {
+    "title": "Firebase로 백엔드 대체하는 법 (설명편)",
+    "url": "/posts/Firebase/",
+    "categories": "Backend, Cloud",
+    "tags": "Backend, Cloud",
+    "date": "2025-04-06 10:00:00 +0800",
+    "content": "Firebase로 백엔드 대체하기.    나는 백엔드 개발자다. Spring Boot 기반의 API 서버를 설계하고, 때론 Vue.js를 써서 프론트까지 구현하는 풀스택 개발자이기도 하다. 혼자서 간단한 앱을 개발할 때조차도 엔티티 설계, 비즈니스 로직 고민, API 구성 등에 시간이 오래 걸린다. 그래서 요즘 고민하고 있다. 생산성을 높일 방법은 없..."
+  },
+  {
     "title": "DB 트랜잭션의 동시성과 고립성, 성능은 어떻게 지킬까?",
     "url": "/posts/Transaction_IsolationLevel/",
     "categories": "DB, Transaction, ACID",
